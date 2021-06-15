@@ -6,6 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/lake
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/lake/proprietary/system/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_faceproc.so \
+    vendor/motorola/lake/proprietary/system/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_faceproc2.so \
+    vendor/motorola/lake/proprietary/system/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmcamera_faceproc.so \
+    vendor/motorola/lake/proprietary/system/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmcamera_faceproc2.so \
     vendor/motorola/lake/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
     vendor/motorola/lake/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/lake/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
@@ -331,6 +335,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lake/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
     vendor/motorola/lake/proprietary/vendor/lib/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterprovision.so \
     vendor/motorola/lake/proprietary/vendor/lib/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterutils.so \
+    vendor/motorola/lake/proprietary/vendor/lib/libmcf-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmcf-qc-fd-offline.so \
     vendor/motorola/lake/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/motorola/lake/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/motorola/lake/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
@@ -435,6 +440,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lake/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/motorola/lake/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/motorola/lake/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/motorola/lake/proprietary/vendor/lib/libmmcamera_sat_test_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sat_test_lib.so \
     vendor/motorola/lake/proprietary/vendor/lib/libmmcamera_s5k4h7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h7_eeprom.so \
     vendor/motorola/lake/proprietary/vendor/lib/libmmcamera_s5k4h7a8s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h7a8s_eeprom.so \
     vendor/motorola/lake/proprietary/vendor/lib/libmmcamera_s5k4h8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8.so \
@@ -485,6 +491,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lake/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/motorola/lake/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/motorola/lake/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
+    vendor/motorola/lake/proprietary/vendor/lib64/libmcf-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmcf-qc-fd-offline.so \
     vendor/motorola/lake/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/motorola/lake/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/motorola/lake/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
