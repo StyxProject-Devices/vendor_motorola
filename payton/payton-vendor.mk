@@ -267,6 +267,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/motorola/payton/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
+    vendor/motorola/payton/proprietary/vendor/lib/libmcf-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmcf-qc-fd-offline.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
@@ -410,6 +411,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcameraddm.so \
+    vendor/motorola/payton/proprietary/vendor/lib64/libmcf-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmcf-qc-fd-offline.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
